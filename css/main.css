@@ -1,0 +1,254 @@
+/****** BASE STYLES ******/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width:1200;
+    min-width: 800px;
+}
+
+
+/****** GRID ******/
+
+.full-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    float: left;
+}
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+
+.full-width #header{
+    width: 1200px;
+    margin: 0 auto;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 625px;
+    background: url('../img/desk-space.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight:100;
+    font-size: 24px;
+    color: #8ba700;
+    padding: 15px 25px;
+}
+nav {
+    float: right;
+    padding: 0px 0px;
+    clear: both;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #828282;
+    padding-left: 10px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight:100;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+header h2 span {
+    color: #8ba700;
+}
+
+header h2 {
+    width: 630px;
+    font-family: 'Lora', serif;
+    font-size: 85px;
+    line-height: 90px;
+    color: black;
+    float: right;
+    padding: 0px;
+}
+
+
+/*********ARTICLES**********/
+
+
+#work {
+    background-color: #F6F4F3;
+    padding-left: 20px;
+    height: 1860px;
+
+}
+
+
+
+.description {
+    float: left;
+    padding: 20px;
+    background: #FFFFFF;
+    background-color: #F6F4F3;
+    width: 300px;
+    height: 567px;
+    box-sizing: border-box;
+
+}
+
+.description p {
+    line-height: 30px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight:100;
+    font-size:24px;
+    text-align: justify;
+}
+
+h3 {
+    font-size:30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+h4 {
+    font-size:30px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0px;
+
+}
+
+
+h5 {
+
+    font-size:30px;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+}
+
+h5 span {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;
+}
+
+
+.image {
+    float: left;
+    width: 850px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.image:hover {
+    opacity: 0.3;
+
+}
+
+#about {
+    padding:20px 10px;
+    background-color: #D6D8D6;
+    clear: both;
+    height: 400px;
+    margin: auto;
+
+}
+
+
+.bio-image {
+    float: left;
+}
+
+.story p {
+    line-height: 19px;
+    font-family:'raleway', sans-serif;
+    font-weight: 200;
+    font-size:19px;
+    width: 800px;
+}
+
+.story p span {
+        font-family: 'Shadows Into Light Two', cursive;
+        font-size: 25px;
+}
+
+
+ .story{
+    padding: 0px;
+    float: left;
+    overflow: auto;
+
+}
+
+#contact{
+    padding: 20px 20px;
+    background-color: #A85A46;
+    margin: auto;
+}
+
+
+#contact-img{
+    letter-spacing: 12px;
+    text-align: center;
+
+}
+
+#mail:hover {
+    opacity: 0.3;
+
+}
+
+#linked-in:hover {
+    opacity: 0.3;
+}
+
+#github:hover {
+    opacity: 0.3;
+
+}
+
+#instagram:hover {
+    opacity: 0.3;
+
+}
+
+#pinterest:hover {
+    opacity: 0.3;
+
+}
+
+#facebook:hover {
+    opacity: 0.3;
+
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #474350;
+    padding: 20px 20px;
+    height: 80px;
+}
+
+footer p {
+    font-family:'raleway', sans-serif;
+    font-weight: 200;
+    font-size:20px;
+    color: white;
+}
+
+footer span {
+    font-size: 17px;
+}
